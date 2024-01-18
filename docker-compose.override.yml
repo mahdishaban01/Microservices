@@ -67,6 +67,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_HTTP_PORTS=8080
       - "CacheSettings:ConnectionString=basketdb:6379" 
+      - "GrpcSettings:DiscountUrl=discount.grpc"
     depends_on:
       - "basketdb"
     ports:
