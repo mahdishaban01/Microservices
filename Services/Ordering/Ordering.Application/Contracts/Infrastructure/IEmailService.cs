@@ -1,4 +1,6 @@
-﻿namespace Ordering.Application.Contracts.Infrastructure
+﻿using Ordering.Application.Models;
+
+namespace Ordering.Application.Contracts.Infrastructure
 {
     public interface IEmailService
     {
